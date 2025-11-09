@@ -1,0 +1,80 @@
+.page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  background-image: url('web-background.jpg');
+  background-size: cover;
+}
+
+.page-wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading-box {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+  .avatar {
+    height: 600px;
+    width: auto;
+  }
+}
+
+.name-box {
+  width: 50%;
+  color: aliceblue;
+
+  .topic-text {
+    font-size: 40px;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .subtopic-text {
+    font-size: 20px;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    margin-top: 8px;
+  }
+
+  .content-text {
+    margin-top: 40px;
+    margin-bottom: 48px;
+    font-size: 16px;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+  }
+
+  button {
+    font-size: 18px;
+    padding: 16px 24px;
+    width: 200px;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #08dd65;
+    color: #f7f9f5;
+  }
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
